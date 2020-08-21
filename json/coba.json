@@ -1,0 +1,31 @@
+[
+  {
+    "nama": "Dimas",
+    "umur": 20,
+    "nim": "18.11.0031",
+    "lulus": true,
+    "hobi": [
+      "coding",
+      "gaming"
+    ],
+    "pembimbing": {
+      "pembimbing1": "Cahyo",
+      "pembimbing2": "Nur"
+    }
+  },
+  {
+    "nama": "Dimas Cahyo Nur Aditya",
+    "umur": 20,
+    "nim": "18.11.0031",
+    "lulus": true,
+    "hobi": [
+      "coding",
+      "membaca",
+      "makan"
+    ],
+    "pembimbing": {
+      "pembimbing1": "Cahyo Nur Dimas",
+      "pembimbing2": "Nur Cahyo Aditya"
+    }
+  }
+]
