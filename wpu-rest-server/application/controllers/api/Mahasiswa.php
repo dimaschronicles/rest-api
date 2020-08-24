@@ -14,8 +14,14 @@ class Mahasiswa extends REST_Controller
   {
     parent::__construct();
     $this->load->model('Mahasiswa_model', 'mahasiswa');
+
+    $this->methods['index_get']['limit'] = 10;
+    // $this->methods['index_delete']['limit'] = 2;
+    // $this->methods['index_post']['limit'] = 2;
+    // $this->methods['index_put']['limit'] = 2;
   }
 
+  // read
   public function index_get()
   {
     $id = $this->get('id');
@@ -38,6 +44,7 @@ class Mahasiswa extends REST_Controller
     }
   }
 
+  // delete
   public function index_delete()
   {
     $id = $this->delete('id');
@@ -65,7 +72,7 @@ class Mahasiswa extends REST_Controller
     }
   }
 
-
+  // insert
   public function index_post()
   {
     $data = [
@@ -90,6 +97,7 @@ class Mahasiswa extends REST_Controller
     }
   }
 
+  // update
   public function index_put()
   {
     $id = $this->put('id');
