@@ -136,7 +136,9 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-$config['composer_autoload'] = false;
+$config['composer_autoload'] = FCPATH . 'vendor/autoload.php';
+// var_dump(FCPATH);
+// die;
 
 /*
 |--------------------------------------------------------------------------
